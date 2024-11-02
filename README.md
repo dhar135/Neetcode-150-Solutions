@@ -92,14 +92,6 @@ def solution_function():
     pass
 ```
 
-## Progress Tracking
-
-- [ ] Arrays & Hashing
-  - [ ] Contains Duplicate
-  - [ ] Valid Anagram
-  - [ ] Two Sum
-  ...
-
 ## Contributing
 
 Feel free to submit issues and enhancement requests!

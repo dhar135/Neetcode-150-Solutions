@@ -19,7 +19,7 @@ neetcode150/
 
 ## Problem Categories
 
-- Arrays & Hashing (0/9)
+- Arrays & Hashing (2/9)
 - Two Pointers (0/5)
 - Sliding Window (0/6)
 - Stack (0/7)
@@ -76,7 +76,9 @@ Each solution file follows this template:
 """
 Problem: [Problem Name]
 Difficulty: [Easy/Medium/Hard]
-Link: [LeetCode Problem URL]
+Link: [Neetcode Problem URL]
+
+Problem Description: [Description]
 
 Approach:
 1. [Step 1]

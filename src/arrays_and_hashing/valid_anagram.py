@@ -19,7 +19,7 @@ Constraints:
 - s and t consist of lowercase English letters.
 
 Approach:
-- Base Check to see if the two strings are the same length, return false if so.
+- Base Check to see if the two strings are the same length, return false if they are not.
 - Initialize list counter as long as alphabet.
 - Loop through letters in string an add +1 to the counter if in 's' but -1 if in 't'.
 - - If the two strings are anagrams than the counter should be at 0. For Example: "aaa" and "aaa" is equivalent to 3 - 3 = 0
@@ -36,10 +36,11 @@ def valid_anagram(s: str, t: str) -> bool:
     # Base Check
     if len(s) != len(t):
         return False
-
+    
     count = [0] * 26
 
     for i in range(len(s)):
+
         count[ord(s[i]) - ord('a')] += 1
         count[ord(t[i]) - ord('a')] -= 1
 
@@ -47,3 +48,6 @@ def valid_anagram(s: str, t: str) -> bool:
         if val != 0:
             return False
     return True
+
+
+
